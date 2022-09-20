@@ -10,12 +10,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
   VStack,
-  Button,
   Text,
-  Grid,
-  Flex,
-  Image,
-  Box,
 } from "@chakra-ui/react";
 const NavMenu = () => {
   const { isMenuOpen, closeMenu } = useContext(ShopContext);
