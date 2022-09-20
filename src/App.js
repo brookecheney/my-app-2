@@ -1,14 +1,17 @@
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import ProductPage from "./pages/ProductPage";
 import Home from "./pages/Home";
+import NavMenu from "./components/NavMenu";
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
       <Router>
         <NavBar />
         <Cart />
+        <NavMenu />
         <Switch>
           <Route path="/products/:handle">
             <ProductPage />
@@ -17,7 +20,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        <p>Footer</p>
+      <Footer />
       </Router>
     </div>
   );
