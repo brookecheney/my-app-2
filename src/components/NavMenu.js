@@ -28,6 +28,7 @@ const NavMenu = () => {
             </VStack>
           </DrawerBody>
           <DrawerFooter textAlign="center">
+          <Text w="100%"> Contact Me at Brooklynekc@gmail.com</Text>
             <Text w="100%"> Copyright www.workingwithshopify.com</Text>
           </DrawerFooter>
         </DrawerContent>
