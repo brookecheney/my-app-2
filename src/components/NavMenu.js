@@ -22,7 +22,7 @@ const NavMenu = () => {
           <DrawerHeader>Menu</DrawerHeader>
           <DrawerBody>
             <VStack p="2rem">
-              <Link to="/">About Us</Link>
+              <Link to="/About">About Us</Link>
               <Link to="/">Learn More</Link>
               <Link to="/">Sustainability</Link>
             </VStack>
