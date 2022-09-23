@@ -1,14 +1,9 @@
 import React from 'react'
-import { useParams } from "react-router-dom";
 import ImageWithText from "../components/ImageWithText";
 import myImage from "./blackbow.png";
 import {
   Box,
   Grid,
-  Image,
-  Text,
-  Button,
-  Heading,
   Flex,
 } from "@chakra-ui/react";
 const About = () => {
