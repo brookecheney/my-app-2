@@ -9,7 +9,7 @@ const NavBar = () => {
   const { openCart, openMenu, checkout } = useContext(ShopContext);
   return (
     <Flex
-      backgroundColor="#FFA8E2"
+      backgroundColor="#8F00FF"
       flexDir="row"
       alignItems="center"
       justifyContent="space-between"

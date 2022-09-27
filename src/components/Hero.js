@@ -3,7 +3,7 @@ import { Box, Button, Text, Image, Center } from "@chakra-ui/react";
 import myImage from "./blackbow_2.png";
 const Hero = () => {
   return (
-    <Box backgroundColor="#FFA8E2" w="100%" position="relative" h="90vh">
+    <Box backgroundColor="#8F00FF" w="100%" position="relative" h="90vh">
       <Image
         src={myImage}
         h="100%"

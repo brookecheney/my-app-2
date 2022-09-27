@@ -4,7 +4,7 @@ import { Grid, Box, Text, Image, VStack } from '@chakra-ui/react'
 
 function Footer() {
   return (
-    <Box backgroundColor="#FFA8E2">
+    <Box backgroundColor="#8F00FF">
         <Grid templateColumns={["repear(1, 1fr)","repeat(3, 1fr)"]} color="white" fontWeight="bold">
         <Image src=""/>
         <VStack p="2rem">
