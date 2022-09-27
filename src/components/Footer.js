@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Grid, Box, Text, Image, VStack } from '@chakra-ui/react'
-import myImage from "./brookiesbows.png";
+import myImage from "./brookiesbows copy.png";
 function Footer() {
   return (
     <Box backgroundColor="#8F00FF">
