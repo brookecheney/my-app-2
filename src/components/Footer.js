@@ -8,14 +8,14 @@ function Footer() {
         <Grid templateColumns={["repear(1, 1fr)","repeat(3, 1fr)"]} color="white" fontWeight="bold">
         <Image src=""/>
         <VStack p="2rem">
-            <Link to="/">The Green Blast</Link>
-            <Link to="/">The Green Blast</Link>
-            <Link to="/">The Green Blast</Link>
+            <Link to="/">About</Link>
+            <Link to="/">Careers</Link>
+            <Link to="/">Refunds</Link>
         </VStack>
         <VStack p="2rem">
-            <Link to="/">The Green Blast</Link>
-            <Link to="/">The Green Blast</Link>
-            <Link to="/">The Green Blast</Link>
+            <Link to="/">Contact</Link>
+            <Link to="/">Instagram</Link>
+            <Link to="/">Facebook</Link>
         </VStack>
         </Grid>
         <Box>
