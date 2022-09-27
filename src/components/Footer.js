@@ -10,10 +10,10 @@ function Footer() {
         <VStack p="2rem">
             <Link to="/">About</Link>
             <Link to="/">Careers</Link>
-            <Link to="/">Refunds</Link>
+            <Link to="/">Contact</Link>
         </VStack>
         <VStack p="2rem">
-            <Link to="/">Contact</Link>
+            <Link to="/">Twitter</Link>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
         </VStack>
