@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Grid, Box, Text, Image, VStack } from '@chakra-ui/react'
-
+import myImage from "./brookiesbows.png";
 function Footer() {
   return (
     <Box backgroundColor="#8F00FF">
         <Grid templateColumns={["repear(1, 1fr)","repeat(3, 1fr)"]} color="white" fontWeight="bold">
-        <Image src=""/>
+        <Image src={myImage}/>
         <VStack p="2rem">
             <Link to="/">About</Link>
             <Link to="/">Careers</Link>
