@@ -5,6 +5,7 @@ import { ShopContext } from "../context/shopContext";
 import Hero from "../components/Hero";
 import ImageWithText from "../components/ImageWithText";
 import myImage from "./blackbow.png";
+import myImage2 from "./blackbow_29.png";
 import RichText from "../components/RichText";
 
 const Home = () => {
@@ -55,7 +56,7 @@ const Home = () => {
       />
       <ImageWithText
         reverse
-        image={myImage}
+        image={myImage2}
         heading="Heading"
         text="l this mistaken
        idea of denouncing pleasure and praising pain was born and I will 
