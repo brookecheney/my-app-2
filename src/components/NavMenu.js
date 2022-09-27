@@ -23,8 +23,6 @@ const NavMenu = () => {
           <DrawerBody>
             <VStack p="2rem">
               <Link to="/About">About Us</Link>
-              <Link to="/">Learn More</Link>
-              <Link to="/">Sustainability</Link>
             </VStack>
           </DrawerBody>
           <DrawerFooter textAlign="center">
