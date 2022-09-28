@@ -37,7 +37,7 @@ const ProductPage = () => {
         >
           <Heading pb="2rem">{product.title}</Heading>
           <Text fontWeight="bold">{product.variants[0].price}</Text>
-          <Text pb="2rem" color="gray.500">
+          <Text justifyContent="center" alignItems="center" pb="2rem" color="gray.500">
             {product.description}
           </Text>
           <Button
@@ -52,6 +52,7 @@ const ProductPage = () => {
         </Flex>
         <Flex w="23rem" h="11.65rem" justifyContent="left" alignItems="left">
           <Image src={product.images[2].src} />
+          &nbsp; &nbsp; 
           <Image src={product.images[1].src} />
         </Flex>
       </Grid>
