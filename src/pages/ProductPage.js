@@ -50,7 +50,8 @@ const ProductPage = () => {
             Add To Cart
           </Button>
         </Flex>
-        <Flex w="23rem" h="11.65rem" justifyContent="left" alignItems="left">
+
+        <Flex p="1rem" w="24rem" h="12rem" justifyContent="left" alignItems="left">
           <Image src={product.images[2].src} />
           &nbsp; &nbsp; 
           <Image src={product.images[1].src} />
