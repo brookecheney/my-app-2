@@ -10,12 +10,13 @@ const About = () => {
           <ImageWithText
             image={myImage}
             heading="About"
-            text="l this mistaken
-       idea of denouncing pleasure and praising pain was born and I will 
-       give you a complete account of the system, and expound the actual 
-       teachings of the great explorer of the truth, the master-builder of
-        human happiness. No one rejects, dislikes, or avoids pleasure itself, 
-        because it is pleasure, but because those who do not know how to pursue"
+            text="The hair bow was originally gender-specific to adult males in Europe throughout the 1700s when men adorned their hair with bows to show they were prosperous and extravagant.
+
+            Women also wore extravagant hairstyles, but these did not often feature hair bows; rather large ornaments and jewels were preferred.
+            
+            After the French Revolution extravagance in dress and hairstyle was frowned upon and hair bows were rarely worn. By the 1800s it became common for male children to wear hair bows tying hair at the nape of the neck.
+            
+            Women throughout the 19th century wore hair ornaments and hats, but the hair bow only really achieved widespread popularity in the 20th century before the second world war"
           />
         </Flex>
       </Grid>
