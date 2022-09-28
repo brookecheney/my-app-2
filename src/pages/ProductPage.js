@@ -29,7 +29,7 @@ const ProductPage = () => {
           <Image src={product.images[0].src} />
         </Flex>
 
-        <Flex w="25rem" h="12.5rem" justifyContent="left" alignItems="left">
+        <Flex  justifyContent="left" alignItems="left">
           <Image src={product.images[2].src} />
           </Flex>
   
