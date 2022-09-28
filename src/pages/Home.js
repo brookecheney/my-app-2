@@ -47,23 +47,13 @@ const Home = () => {
       <ImageWithText
         image={myImage}
         heading="Heading"
-        text="l this mistaken
-       idea of denouncing pleasure and praising pain was born and I will 
-       give you a complete account of the system, and expound the actual 
-       teachings of the great explorer of the truth, the master-builder of
-        human happiness. No one rejects, dislikes, or avoids pleasure itself, 
-        because it is pleasure, but because those who do not know how to pursue"
+        text="Hair bows have been worn since the 17th century. During the 17th and 18th centuries men and women used them with their wigs, with men tying their longer hair in the back with a bow."
       />
       <ImageWithText
         reverse
         image={myImage2}
         heading="Heading"
-        text="l this mistaken
-       idea of denouncing pleasure and praising pain was born and I will 
-       give you a complete account of the system, and expound the actual 
-       teachings of the great explorer of the truth, the master-builder of
-        human happiness. No one rejects, dislikes, or avoids pleasure itself, 
-        because it is pleasure, but because those who do not know how to pursue "
+        text="The hair bow was originally gender-specific to adult males in Europe throughout the 1700s when men adorned their hair with bows to show they were prosperous and extravagant. Women also wore extravagant hairstyles, but these did not often feature hair bows; rather large ornaments and jewels were preferred. "
       />
     </Box>
   );
